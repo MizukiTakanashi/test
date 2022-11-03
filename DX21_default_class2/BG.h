@@ -20,7 +20,7 @@ public:
 	static const float UV_SPEED;	//背景の動くスピード
 
 private:
-	int m_tex_num = 0;
+	int m_tex_num = 1;
 	float m_start_uv_x = 0.0f;
 
 public:
