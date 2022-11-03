@@ -3,6 +3,8 @@
 
 .vs/
 
+Debug/
+
 # User-specific files
 *.suo
 *.user
