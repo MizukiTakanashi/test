@@ -18,6 +18,7 @@ const float BG::UV_SPEED = 0.005f;
 //=========================
 void BG::DrawBG()const
 {
+	
 	int a = 0;
 
 	//テクスチャの設定
