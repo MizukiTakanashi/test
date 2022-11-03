@@ -18,9 +18,6 @@ const float BG::UV_SPEED = 0.005f;
 //=========================
 void BG::DrawBG()const
 {
-	
-	int a = 0;
-
 	//テクスチャの設定
 	GetDeviceContext()->PSSetShaderResources(0, 1,
 		GetTexture(m_tex_num));
