@@ -18,6 +18,9 @@ const float BG::UV_SPEED = 0.005f;
 //=========================
 void BG::DrawBG()const
 {
+
+
+
 	//テクスチャの設定
 	GetDeviceContext()->PSSetShaderResources(0, 1,
 		GetTexture(m_tex_num));
@@ -26,4 +29,6 @@ void BG::DrawBG()const
 		SCREEN_WIDTH, SCREEN_HEIGHT, 0.0f, D3DXCOLOR(1.0f, 1.0f, 1.0f, 1.0f), m_start_uv_x, 0.0f, 1.0f, 1.0f);
 
 	int tekitou = 0;
+
+	int g = 0;
 }
